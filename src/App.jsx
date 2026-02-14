@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import { ExpenseProvider } from "./context/ExpenseContext";
-import Index from "./pages";
+import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
 export default function App() {
